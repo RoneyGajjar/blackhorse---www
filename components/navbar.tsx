@@ -23,18 +23,16 @@ export default async function Navbar() {
                             <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/">Home</Link>
                             <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/about">About Us</Link>
                             <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/loanprogram">Services</Link>
-                            {/* <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/partners">Become a Partner</Link> */}
-                            {/* <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/mortgagecalc">Mortgage Calculator</Link> */}
-                            {/* <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/business-services">Business Services</Link> */}
-                            {/* <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/contact">Contact Us</Link> */}
                         </div>
                     </nav>
-                    <button
-                        type="submit"
-                        className="bg-white text-primary px-7 py-3 font-headline font-bold text-[13px] uppercase tracking-widest rounded-md hover:bg-opacity-90 transition-all shadow-md"
+                    <a
+                        href="https://wa.me/8401165350?text=Hello!%20I%20would%20like%20to%20know%20more."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-white text-primary px-7 py-3 font-headline font-bold text-[13px] uppercase tracking-widest rounded-md hover:bg-opacity-90 transition-all shadow-md text-center"
                     >
                         Contact Us
-                    </button>
+                    </a>
                 </div>
             </header>
         </>

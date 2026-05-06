@@ -20,9 +20,9 @@ export default async function Navbar() {
 
                     <nav className="hidden md:flex gap-4 items-center">
                         <div className="hidden lg:flex items-center gap-8">
-                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/">Home</Link>
-                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/about">About Us</Link>
-                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="/loanprogram">Services</Link>
+                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="./">Home</Link>
+                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="./">About Us</Link>
+                            <Link className="text-slate-300/80 hover:text-white transition-colors font-headline font-bold tracking-tight text-sm uppercase" href="./">Services</Link>
                         </div>
                     </nav>
                     <a

@@ -16,16 +16,16 @@ const Footer = () => {
                             <h5 className="font-headline font-extrabold text-xs uppercase tracking-widest mb-8 text-secondary-fixed">Quick Links</h5>
                             <ul className="space-y-4 text-sm text-primary-fixed/80 font-body">
                                 <li><a className="hover:text-white transition-colors" href="./">Home</a></li>
-                                <li><a className="hover:text-white transition-colors" href="./loan-programs">Services</a></li>
-                                <li><a className="hover:text-white transition-colors" href="./how-it-works">About Us</a></li>
-                                <li><a className="hover:text-white transition-colors" href="./contact">Contact Us</a></li>
+                                <li><a className="hover:text-white transition-colors" href="./">Services</a></li>
+                                <li><a className="hover:text-white transition-colors" href="./">About Us</a></li>
+                                <li><a className="hover:text-white transition-colors" href="./">Contact Us</a></li>
                             </ul>
                         </div>
                         <div>
                             <h5 className="font-headline font-extrabold text-xs uppercase tracking-widest mb-8 text-secondary-fixed">Legal</h5>
                             <ul className="space-y-4 text-sm text-primary-fixed/80 font-body">
-                                <li><a className="hover:text-white transition-colors" href="#">Privacy Policy</a></li>
-                                <li><a className="hover:text-white transition-colors" href="#">Terms of Service</a></li>
+                                <li><a className="hover:text-white transition-colors" href="./">Privacy Policy</a></li>
+                                <li><a className="hover:text-white transition-colors" href="./">Terms of Service</a></li>
                             </ul>
                         </div>
                     </div>

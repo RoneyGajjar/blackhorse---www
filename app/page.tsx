@@ -1,18 +1,26 @@
-import Footer from "@/components/footer";
-import MainHero from "@/components/mainhero";
-import Navbar from "@/components/navbar";
+import 'material-symbols';
+import './globals.css';
 
-export default function ComingSoonHero() {
+import { Navbar } from '../components/organisms/navbar';
+import { Hero } from '../components/organisms/hero';
+import { ImpactMetrics } from '../components/organisms/impactMetric';
+import { PrecisionSection } from '../components/organisms/precisionSection';
+import { Competencies } from '../components/organisms/competencies';
+import { Testimonial } from '../components/organisms/testimonial';
+import { Footer } from '../components/organisms/footer';
+
+export default function LandingPage() {
   return (
-    <>
-      {/* Navbar */}
+    <div className="bg-background text-on-surface font-body-md antialiased min-h-screen flex flex-col">
       <Navbar />
-
-      {/* Hero Section */}
-      <MainHero />
-
-      {/* Footer */}
+      <main className="pt-20 flex-grow">
+        <Hero />
+        <ImpactMetrics />
+        <PrecisionSection />
+        <Competencies />
+        <Testimonial />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }

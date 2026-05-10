@@ -28,7 +28,7 @@ export const Hero = () => (
                 <img
                     className="w-full h-auto object-cover aspect-[4/5]"
                     alt="Elite financial professionals"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsWEJfPLspxbauva5q3SHKbczKG4-9rJNCA4DTNBlLNsUNoU49CZHu1iO6WcMfJf1WsAhAPhO3YahWbn_44jVNOWdGdCd5j2a6kD4R1dA76N4k8kpf99oYQ7-xGduVxOt41yP_Lomitn6TYKaVIjNKrpmuysUVJg_ScuIVfb0Nv8C2PgK2mz2odg_pTYUyr068a3kSGzmlEAffYDPs6WMgbuXHlufsBn9nKhWQ_e1gOkCDRo8IkFZZVXZrg5L9btygCY9S5ZcrKMiz"
+                    src="hero-img.jpg"
                 />
             </div>
             <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-primary-container/5 rounded-full blur-3xl -z-10"></div>

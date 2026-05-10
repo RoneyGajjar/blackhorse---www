@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Icon } from '../atoms/icons';
 import { Logo } from '../atoms/logo';
 
@@ -25,7 +26,10 @@ export const Footer = () => (
                     {/* <a className="text-surface-container-highest font-label-md text-sm uppercase tracking-widest hover:text-on-primary transition-all" href="#">Careers</a> */}
                 </nav>
                 <div className="mt-12 md:mt-0 text-surface-variant font-label-sm text-xs uppercase tracking-widest text-left md:text-right leading-relaxed">
-                    © 2026 Black Horse Associates. All rights reserved. <br />Meticulous taxation and accounting.
+                    © 2026 Black Horse Associates. All rights reserved.
+                    <p className="text-[11px] text-primary-fixed/40 font-headline font-bold uppercase tracking-widest">
+                        Designed and Developed by <Link href="https://honeyhexa.com" className="text-secondary-fixed">Honey Hexa</Link>
+                    </p>
                 </div>
             </div>
         </div>

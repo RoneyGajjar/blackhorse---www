@@ -1,23 +1,44 @@
-import { Icon } from '../atoms/icons';
+import React, { ReactNode } from 'react';
+import { Heading } from '../atoms/Heading';
+import { Text } from '../atoms/Text';
+import { IconBox } from '../atoms/IconBox';
 
 interface ServiceCardProps {
-    icon: string;
     title: string;
     description: string;
-    link?: string;
+    icon: ReactNode;
+    linkText?: string;
+    href?: string;
 }
 
-export const ServiceCard = ({ icon, title, description, link = "#" }: ServiceCardProps) => (
-    <div className="bg-surface-container-lowest border border-outline-variant p-8 rounded-xl hover:shadow-lg transition-all flex flex-col items-start gap-6 group">
-        <div className="w-12 h-12 bg-primary text-on-primary flex items-center justify-center rounded-lg">
-            <Icon name={icon} />
+export const ServiceCard: React.FC<ServiceCardProps> = ({
+    title,
+    description,
+    icon,
+    linkText = "Learn more",
+    href = "#"
+}) => {
+    return (
+        <div className="p-10 bg-[#F8F7F5] rounded-sm border border-gray-50 flex flex-col h-full min-h-[280px]">
+            <IconBox>
+                {icon}
+            </IconBox>
+
+            {/* H3 inherently applies Playfair Display from your atom setup */}
+            <Heading level={3} className="text-2xl font-normal text-brand-dark mb-3">
+                {title}
+            </Heading>
+
+            <Text className="text-sm text-gray-500 mb-8 flex-grow pr-4">
+                {description}
+            </Text>
+
+            <a
+                href={href}
+                className="text-brand-dark text-sm font-semibold flex items-center gap-2 hover:opacity-70 transition-opacity mt-auto"
+            >
+                {linkText} <span aria-hidden="true" className="text-[10px] pt-[2px]">❯</span>
+            </a>
         </div>
-        <div className="space-y-4 flex-1">
-            <h3 className="font-headline-md text-2xl text-primary font-semibold">{title}</h3>
-            <p className="text-secondary text-base leading-relaxed">{description}</p>
-        </div>
-        <a href={link} className="inline-flex items-center gap-2 text-primary font-label-md uppercase tracking-widest border-b border-transparent group-hover:border-primary transition-all">
-            Learn More <Icon name="arrow_forward" className="text-sm" />
-        </a>
-    </div>
-);
+    );
+};

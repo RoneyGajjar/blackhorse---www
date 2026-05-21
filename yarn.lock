@@ -256,6 +256,11 @@
     "@eslint/core" "^0.17.0"
     levn "^0.4.1"
 
+"@fontsource/special-gothic-expanded-one@^5.2.3":
+  version "5.2.3"
+  resolved "https://registry.npmjs.org/@fontsource/special-gothic-expanded-one/-/special-gothic-expanded-one-5.2.3.tgz"
+  integrity sha512-CZnpTXJ0EZUDMrqHQTpetgf3f7VXiUbePUG/oKB2Lz+jhe/EWu4qwpEmI+0Vni+MXQ7hCQlGiC1LVH/UbDQwVw==
+
 "@humanfs/core@^0.19.2":
   version "0.19.2"
   resolved "https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz"

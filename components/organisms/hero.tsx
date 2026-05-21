@@ -1,37 +1,49 @@
-'use client'
-import { Button } from '../atoms/buttons';
-import { Badge } from '../atoms/badge';
-import MyApp from '../atoms/cal';
+import React from 'react';
+import { Heading } from '../atoms/Heading';
+import { Text } from '../atoms/Text';
+import { Button } from '../atoms/Button';
 
-export const Hero = () => (
+export const Hero: React.FC = () => {
+    return (
+        <section className="flex flex-col lg:flex-row items-center justify-between py-16 lg:py-24 px-4 max-w-7xl mx-auto">
+            <div className="w-full lg:w-1/2 pr-0 lg:pr-12">
 
-    <section className="max-w-[1200px] mx-auto px-6 md:px-12 py-20 flex flex-col md:flex-row items-center gap-16 overflow-hidden">
-        <div className="flex-1 space-y-8">
-            <Badge>Premium Financial Services</Badge>
-            <h1 className="font-display-lg text-4xl md:text-5xl font-bold leading-tight tracking-tight text-primary">
-                Outsourced Accounting <br />& Taxation Services
-            </h1>
-            <p className="font-body-lg text-lg leading-relaxed text-secondary max-w-xl">
-                Meticulous financial management for high-net-worth individuals and corporate entities. Precision, compliance, and strategic foresight.
-            </p>
-            <div className="flex flex-wrap gap-4 pt-4">
-                {/* <Button variant="primary"
-                    data-cal-namespace="15min"
-                    data-cal-link="black-horse-associates-yce8pc/15min"
-                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Schedule a Consultation</Button> */}
-                <MyApp />
-                {/* <Button variant="outline">View Services</Button> */}
+                <Heading level={1} className="text-5xl lg:text-7xl mb-6 text-[#0A1435] leading-tight">
+                    Where U.S. compliance meets global efficiency
+                </Heading>
+
+                <Text className="text-lg mb-10 max-w-md text-gray-500">
+                    Reliable, compliant, cost-effective tax and accounting outsourcing for US CPA firms. From bookkeeping to tax prep and audit support, we deliver precision, scalability, and faster turnarounds — every season.
+                </Text>
+
+                <div className="flex flex-wrap gap-4">
+                    <Button variant="primary">Secure Your Financial Future</Button>
+                    <Button variant="secondary">Learn More</Button>
+                </div>
             </div>
-        </div>
-        <div className="flex-1 relative">
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                    className="w-full h-auto object-cover aspect-[4/5]"
-                    alt="Elite financial professionals"
-                    src="hero-img.jpg"
-                />
+
+            <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative">
+                {/* Removed overflow-hidden from this outer wrapper */}
+                <div className="aspect-[4/5] lg:aspect-square w-full max-w-md mx-auto relative">
+
+                    {/* Inner wrapper specifically for the image to handle the rounded corners */}
+                    <div className="w-full h-full rounded-sm overflow-hidden shadow-2xl bg-gray-100">
+                        {/* Using a live placeholder image for immediate rendering */}
+                        <img
+                            src="hero-bha.jpeg"
+                            alt="Professional Consultant"
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
+
+                    {/* Floating UI Element - Added z-10 so it sits above the image */}
+                    <div className="absolute bottom-8 left-[-2rem] bg-white p-4 shadow-lg rounded-sm hidden lg:block border border-gray-100 z-10">
+                        <Text className="font-bold text-[#0A1435]">Expert Review</Text>
+                        <Text className="text-xs">Completed today at 9:00 AM</Text>
+                    </div>
+
+                </div>
             </div>
-            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-primary-container/5 rounded-full blur-3xl -z-10"></div>
-        </div>
-    </section>
-);
+        </section>
+    );
+};

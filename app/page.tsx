@@ -1,26 +1,32 @@
-import 'material-symbols';
-import './globals.css';
+import { Navbar } from '@/components/organisms/Navbar';
+import { Hero } from '@/components/organisms/Hero';
+import { Features } from '@/components/organisms/Features';
+import { Statement } from '@/components/organisms/Statement';
+import { Situations } from '@/components/molecules/Situtations';
+import { Services } from '@/components/organisms/Services';
+import { Process } from '@/components/organisms/Process';
+import { FAQ } from '@/components/organisms/FAQ';
+import { CTA } from '@/components/organisms/CTA';
+import { Footer } from '@/components/organisms/footer';
 
-import { Navbar } from '../components/organisms/navbar';
-import { Hero } from '../components/organisms/hero';
-import { ImpactMetrics } from '../components/organisms/impactMetric';
-import { PrecisionSection } from '../components/organisms/precisionSection';
-import { Competencies } from '../components/organisms/competencies';
-import { Testimonial } from '../components/organisms/testimonial';
-import { Footer } from '../components/organisms/footer';
-
-export default function LandingPage() {
+export default function Home() {
   return (
-    <div className="bg-background text-on-surface font-body-md antialiased min-h-screen flex flex-col">
+    <main className="bg-white min-h-screen selection:bg-brand-dark selection:text-white">
       <Navbar />
-      <main className="pt-20 flex-grow">
-        <Hero />
-        <ImpactMetrics />
-        <PrecisionSection />
-        <Competencies />
-        <Testimonial />
-      </main>
+      <Hero />
+      <Statement />
+      <Features />
+      {/* <Situations /> */}
+      <Services />
+      <Process />
+      {/* <FAQ /> */}
+      <CTA />
+      {/* Add remaining organisms here:
+        <ComplexNeeds />
+        <Testimonials />
+        <Footer />
+      */}
       <Footer />
-    </div>
+    </main>
   );
 }

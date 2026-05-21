@@ -1,6 +1,6 @@
 import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
-import { Button } from "./buttons";
+import { Button } from "./Button";
 export default function MyApp() {
     useEffect(() => {
         (async function () {
@@ -8,8 +8,9 @@ export default function MyApp() {
             cal("ui", { "hideEventTypeDetails": false, "layout": "month_view" });
         })();
     }, [])
-    return <Button variant="primary"
+    return <Button variant="secondary"
+        className="font-display"
         data-cal-namespace="15min"
         data-cal-link="black-horse-associates-yce8pc/15min"
-        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Schedule a Consultation</Button>;
+        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'>Book a Consultation</Button>;
 };

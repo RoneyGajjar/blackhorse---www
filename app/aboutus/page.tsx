@@ -2,7 +2,7 @@ import ExecutiveLeadershipSection from "@/components/organisms/ExecutiveLeadersh
 import Hero from "@/components/organisms/AboutHero";
 import OurStory from "@/components/organisms/OurStory";
 import PrincipleCard from "@/components/organisms/PrincipleCard";
-import { Footer } from "@/components/organisms/footer";
+import { Footer } from "@/components/organisms/Footer";
 import { Navbar } from "@/components/organisms/Navbar";
 
 function AboutUs() {

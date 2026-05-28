@@ -7,7 +7,7 @@ import { Services } from '@/components/organisms/Services';
 import { Process } from '@/components/organisms/Process';
 import { FAQ } from '@/components/organisms/FAQ';
 import { CTA } from '@/components/organisms/CTA';
-import { Footer } from '@/components/organisms/footer';
+import { Footer } from '@/components/organisms/Footer';
 import IndustriesSpecialize from '@/components/organisms/IndustreisSpecialization';
 
 export default function Home() {

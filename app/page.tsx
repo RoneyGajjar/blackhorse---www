@@ -18,7 +18,7 @@ export default function Home() {
       <Statement />
       <Features />
       <IndustriesSpecialize />
-      {/* <Situations /> */}
+      {/* <Situations h /> */}
       <Services />
       <Process />
       {/* <FAQ /> */}

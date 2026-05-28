@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { Text } from '../atoms/Text';
-import MyApp from '../atoms/Cal';
-import { Logo } from '../atoms/Logo';
+import MyApp from '../atoms/cal';
+import { Logo } from '../atoms/logo';
 
 
 export const Navbar: React.FC = () => {
@@ -18,8 +18,8 @@ export const Navbar: React.FC = () => {
                 <Logo />
 
                 <div className="hidden md:flex gap-8">
-                    <a href="#tax" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">Home</a>
-                    <a href="#payroll" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">About Us</a>
+                    <a href="/" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">Home</a>
+                    <a href="aboutus" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">About Us</a>
                     <a href="#legal" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">Services</a>
                     <a href="#legal" className="text-sm font-sans font-medium text-gray-600 hover:text-brand-dark transition-colors">Contact</a>
                 </div>

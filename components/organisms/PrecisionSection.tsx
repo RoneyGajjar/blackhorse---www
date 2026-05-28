@@ -1,4 +1,4 @@
-import { FeatureItem } from '../molecules/FeatureItems';
+import { FeatureItem } from '../molecules/featureItems';
 
 export const PrecisionSection = () => (
     <section className="bg-surface-container-low py-24">

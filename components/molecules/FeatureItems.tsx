@@ -1,4 +1,4 @@
-import { Icon } from '../atoms/icons';
+import { Icon } from '../atoms/Icons';
 
 interface FeatureItemProps {
     icon: string;

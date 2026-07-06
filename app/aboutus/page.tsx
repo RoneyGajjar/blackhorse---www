@@ -1,9 +1,8 @@
-import ExecutiveLeadershipSection from "@/components/organisms/ExecutiveLeadership";
-import Hero from "@/components/organisms/AboutHero";
-import OurStory from "@/components/organisms/OurStory";
-import PrincipleCard from "@/components/organisms/PrincipleCard";
-import { Footer } from "@/components/organisms/Footer";
-import { Navbar } from "@/components/organisms/Navbar";
+import Hero from "@/components/organisms/about-hero";
+import OurStory from "@/components/organisms/our-story";
+import PrincipleCard from "@/components/organisms/principlecard";
+import { Footer } from "@/components/organisms/footer";
+import { Navbar } from "@/components/organisms/navbar";
 
 function AboutUs() {
     return (
@@ -15,7 +14,6 @@ function AboutUs() {
             {/* Add remaining organisms here: */}
             {/* <ComplexNeeds /> */}
             {/* <Testimonials /> */}
-            <ExecutiveLeadershipSection />
             <Footer />
         </main>
     )

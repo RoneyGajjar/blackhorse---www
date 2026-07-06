@@ -1,6 +1,6 @@
 import React from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
 
 interface ProcessListItemProps {
     number: string;

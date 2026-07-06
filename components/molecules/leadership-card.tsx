@@ -1,6 +1,6 @@
-import ProfileImage from "@/components/atoms/ProfileImage";
-import { Heading } from "@/components/atoms/Heading";
-import { Text } from "@/components/atoms/Text";
+import ProfileImage from "@/components/atoms/profile-image";
+import { Heading } from "@/components/atoms/heading";
+import { Text } from "@/components/atoms/text";
 
 interface LeadershipCardProps {
     image: string;

@@ -1,9 +1,9 @@
 'use client'; // <-- Crucial for the onClick buttons to work in Next.js
 
 import React, { useRef } from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
-import { CarouselCard } from '../molecules/CarouselCard';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
+import { CarouselCard } from './carousel-card';
 
 interface SituationData {
     badgeText: string;

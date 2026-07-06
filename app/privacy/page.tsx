@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { Heading } from '@/components/atoms/Heading';
-import { Footer } from '@/components/organisms/Footer';
-import { Navbar } from '@/components/organisms/Navbar';
+import { Heading } from '@/components/atoms/heading';
+import { Footer } from '@/components/organisms/footer';
+import { Navbar } from '@/components/organisms/navbar';
 
 export default function PrivacyPolicyPage() {
     return (

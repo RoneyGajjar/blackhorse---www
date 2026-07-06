@@ -1,7 +1,7 @@
-import { Heading } from "@/components/atoms/Heading";
-import { Icon } from "@/components/atoms/Icons";
-import { Text } from "@/components/atoms/Text";
-import { StatItem } from "@/components/molecules/StatItem";
+import { Heading } from "@/components/atoms/heading";
+import { Icon } from "@/components/atoms/icons";
+import { Text } from "@/components/atoms/text";
+import { StatItem } from "@/components/molecules/statitem";
 
 const Advisory = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '../atoms/Text';
+import { Text } from '../atoms/text';
 import Link from 'next/link';
 
 export const Footer: React.FC = () => {

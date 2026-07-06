@@ -1,5 +1,5 @@
-import { Heading } from "@/components/atoms/Heading";
-import Principles from "@/components/molecules/Principle";
+import { Heading } from "@/components/atoms/heading";
+import Principles from "@/components/molecules/principle";
 
 
 const PrincipleCard = () => {

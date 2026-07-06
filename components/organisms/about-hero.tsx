@@ -1,7 +1,7 @@
-import BackgroundImage from "@/components/atoms/BackGroundImage";
-import { Heading } from "@/components/atoms/Heading";
-import Overlay from "@/components/atoms/Overlay";
-import { Text } from "@/components/atoms/Text";
+import BackgroundImage from "@/components/atoms/background-image";
+import { Heading } from "@/components/atoms/heading";
+import Overlay from "@/components/atoms/overlay";
+import { Text } from "@/components/atoms/text";
 
 const Hero = () => {
     return (

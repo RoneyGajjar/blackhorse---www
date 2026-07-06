@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { Footer } from '@/components/organisms/Footer';
-import { Navbar } from '@/components/organisms/Navbar';
-import { Heading } from '@/components/atoms/Heading';
-import { Text } from '@/components/atoms/Text';
-import { CTA } from '@/components/organisms/CTA';
+import { Footer } from '@/components/organisms/footer';
+import { Navbar } from '@/components/organisms/navbar';
+import { Heading } from '@/components/atoms/heading';
+import { Text } from '@/components/atoms/text';
+import { CTA } from '@/components/organisms/cta';
 
 function TaxAdvisoryPage() {
     return (

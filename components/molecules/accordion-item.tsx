@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Text } from '../atoms/Text';
+import { Text } from '../atoms/text';
 
 interface AccordionItemProps {
     question: string;

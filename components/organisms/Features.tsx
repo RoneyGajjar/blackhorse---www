@@ -1,7 +1,7 @@
 import React from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
-import { StatCard } from '../molecules/StatCard';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
+import { StatCard } from '../molecules/statcard';
 
 interface StatData {
     title: string;

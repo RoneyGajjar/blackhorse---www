@@ -1,14 +1,14 @@
-import { Navbar } from '@/components/organisms/Navbar';
-import { Hero } from '@/components/organisms/Hero';
-import { Features } from '@/components/organisms/Features';
-import { Statement } from '@/components/organisms/Statement';
-import { Situations } from '@/components/molecules/Situtations';
-import { Services } from '@/components/organisms/Services';
-import { Process } from '@/components/organisms/Process';
-import { FAQ } from '@/components/organisms/FAQ';
-import { CTA } from '@/components/organisms/CTA';
-import { Footer } from '@/components/organisms/Footer';
-import IndustriesSpecialize from '@/components/organisms/IndustreisSpecialization';
+import { Navbar } from '@/components/organisms/navbar';
+import { Hero } from '@/components/organisms/hero';
+import { Features } from '@/components/organisms/features';
+import { Statement } from '@/components/organisms/statement';
+import { Situations } from '@/components/molecules/situtations';
+import { Services } from '@/components/organisms/services';
+import { Process } from '@/components/organisms/process';
+import { FAQ } from '@/components/organisms/faq';
+import { CTA } from '@/components/organisms/cta';
+import { Footer } from '@/components/organisms/footer';
+import IndustriesSpecialize from '@/components/organisms/industreis-specialization';
 
 export default function Home() {
   return (

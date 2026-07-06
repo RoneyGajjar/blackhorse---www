@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { Heading } from '@/components/atoms/Heading'; // Adjust the import path based on your folder structure
-import { Navbar } from '@/components/organisms/Navbar';
-import { Footer } from '@/components/organisms/Footer';
-import { CTA } from '@/components/organisms/CTA';
+import { Heading } from '@/components/atoms/heading'; // Adjust the import path based on your folder structure
+import { Navbar } from '@/components/organisms/navbar';
+import { Footer } from '@/components/organisms/footer';
+import { CTA } from '@/components/organisms/cta';
 
 export default function AccountingPayrollPage() {
     return (

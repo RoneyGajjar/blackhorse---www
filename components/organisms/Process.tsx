@@ -1,7 +1,7 @@
 import React from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
-import { ProcessListItem } from '../molecules/ProcessListItem';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
+import { ProcessListItem } from '../molecules/processlist-item';
 
 interface ProcessData {
     number: string;

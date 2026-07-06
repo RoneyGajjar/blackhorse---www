@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect } from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
-import { Button } from '../atoms/Button';
-import { AvatarStack } from '../molecules/AvatarStack';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
+import { Button } from '../atoms/button';
+import { AvatarStack } from '../molecules/avatar-stack';
 import { getCalApi } from '@calcom/embed-react';
 
 export const CTA: React.FC = () => {

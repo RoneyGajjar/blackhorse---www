@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Text } from '../atoms/Text';
-import MyApp from '../atoms/Cal';
-import { Logo } from '../atoms/Logo';
+import { Text } from '../atoms/text';
+import MyApp from '../atoms/cal';
+import { Logo } from '../atoms/logo';
 import Link from 'next/link';
 
 

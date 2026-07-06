@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
-import { Heading } from '../atoms/Heading';
-import { Text } from '../atoms/Text';
-import { IconBox } from '../atoms/IconBox';
+import { Heading } from '../atoms/heading';
+import { Text } from '../atoms/text';
+import { IconBox } from '../atoms/iconbox';
 
 interface ServiceCardProps {
     title: string;

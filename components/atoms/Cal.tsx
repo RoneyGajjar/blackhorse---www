@@ -1,6 +1,6 @@
 import { getCalApi } from "@calcom/embed-react";
 import { useEffect } from "react";
-import { Button } from "./Button";
+import { Button } from "./button";
 export default function MyApp() {
     useEffect(() => {
         (async function () {

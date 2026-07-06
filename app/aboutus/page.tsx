@@ -3,6 +3,7 @@ import OurStory from "@/components/organisms/our-story";
 import PrincipleCard from "@/components/organisms/principlecard";
 import { Footer } from "@/components/organisms/footer";
 import { Navbar } from "@/components/organisms/navbar";
+import ExecutiveLeadershipSection from "@/components/organisms/executiveleadership";
 
 function AboutUs() {
     return (
@@ -14,6 +15,7 @@ function AboutUs() {
             {/* Add remaining organisms here: */}
             {/* <ComplexNeeds /> */}
             {/* <Testimonials /> */}
+            <ExecutiveLeadershipSection />
             <Footer />
         </main>
     )

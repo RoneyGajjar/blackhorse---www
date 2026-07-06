@@ -1,7 +1,7 @@
 import { Heading } from "@/components/atoms/Heading";
 import { Icon } from "@/components/atoms/Icons";
 import { Text } from "@/components/atoms/Text";
-import { StatItem } from "@/components/molecules/StatItem";
+import { StatItem } from "@/components/molecules/statItem";
 
 const Advisory = () => {
     return (
@@ -65,7 +65,7 @@ const Advisory = () => {
                 </div>
                 <div className="flex items-center gap-10 bg-gray-50 rounded-lg shadow-md p-10 ">
                     <div className="">
-                        <StatItem value="$4.2B" />
+                        <StatItem value="$4.2B" label="" />
                     </div>
                     <div className="">
 

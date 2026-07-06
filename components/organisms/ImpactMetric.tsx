@@ -1,4 +1,4 @@
-import { StatItem } from '../molecules/StatItem';
+import { StatItem } from '../molecules/statItem';
 
 export const ImpactMetrics = () => (
     <section className="bg-primary-container text-on-primary py-16">

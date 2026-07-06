@@ -5,7 +5,7 @@ import LeadershipCard from "@/components/molecules/LeadershipCard";
 const leadershipData = [
     {
         id: 1,
-        // image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
+        image: "kamal.jpg",
         name: "Kamal Mulchandani",
         role: "Founder &  Principle",
         description:
@@ -13,7 +13,7 @@ const leadershipData = [
     },
     {
         id: 2,
-        // image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop",
+        image: "kailash.jpeg",
         name: "Kailash Mulchandani",
         role: "Partner",
         description:
@@ -69,7 +69,7 @@ const ExecutiveLeadershipSection = () => {
                     {leadershipData.map((leader) => (
                         <LeadershipCard
                             key={leader.id}
-                            // image={leader.image}
+                            image={leader.image}
                             name={leader.name}
                             role={leader.role}
                             description={leader.description}

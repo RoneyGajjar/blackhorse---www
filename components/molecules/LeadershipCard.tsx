@@ -3,14 +3,14 @@ import { Heading } from "@/components/atoms/Heading";
 import { Text } from "@/components/atoms/Text";
 
 interface LeadershipCardProps {
-    // image: string;
+    image: string;
     name: string;
     role: string;
     description: string;
 }
 
 const LeadershipCard = ({
-    // image,
+    image,
     name,
     role,
     description,
@@ -19,10 +19,10 @@ const LeadershipCard = ({
         <div className="space-y-5">
 
             {/* Profile Image */}
-            {/* <ProfileImage
+            <ProfileImage
                 src={image}
                 alt={name}
-            /> */}
+            />
 
             {/* Content */}
             <div className="space-y-2">

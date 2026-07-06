@@ -45,22 +45,21 @@ export const Footer: React.FC = () => {
 
                     {/* Column 2: Navigation (Takes up 2 columns) */}
                     <div className="lg:col-span-2">
-                        <span className="block text-white font-sans text-base font-medium mb-6">Navigate</span>
+                        <span className="block text-white font-sans text-base font-medium mb-6">Quick Links</span>
                         <ul className="space-y-4">
-                            <li><a href="#home" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Home</a></li>
-                            <li><a href="#about" className="text-white/70 hover:text-white text-sm font-sans transition-colors">About</a></li>
-                            <li><a href="#services" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Services</a></li>
+                            <li><a href="/" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Home</a></li>
+                            <li><a href="/aboutus" className="text-white/70 hover:text-white text-sm font-sans transition-colors">About</a></li>
+                            <li><a href="/services/Accounting-payroll" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Services</a></li>
                             {/* <li><a href="#results" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Results</a></li> */}
                         </ul>
                     </div>
 
                     {/* Column 3: Content (Takes up 2 columns) */}
                     <div className="lg:col-span-2">
-                        <span className="block text-white font-sans text-base font-medium mb-6">Content</span>
+                        <span className="block text-white font-sans text-base font-medium mb-6">Legal</span>
                         <ul className="space-y-4">
-                            <li><a href="#blogs" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Privacy Policy</a></li>
-                            <li><a href="#newsletter" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Legal</a></li>
-                            {/* <li><a href="#speaking" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Speaking</a></li> */}
+                            <li><a href="/privacy" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Privacy Policy</a></li>
+                            <li><a href="/terms" className="text-white/70 hover:text-white text-sm font-sans transition-colors">Terms & Conditions</a></li>
                         </ul>
                     </div>
 

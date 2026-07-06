@@ -1,5 +1,6 @@
 // app/layout.tsx
 import { Archivo, Inter } from 'next/font/google';
+import 'material-symbols/outlined.css';
 import './globals.css';
 
 // Initialize Playfair Display

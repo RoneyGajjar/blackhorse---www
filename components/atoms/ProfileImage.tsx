@@ -15,13 +15,9 @@ const ProfileImage = ({
             alt={alt}
             className={`
         w-full
-        h-[420px]
+        h-[900]
         object-cover
         rounded-lg
-        grayscale
-        hover:grayscale-0 
-        transition-all
-        duration-300
         ${className}
       `}
         />

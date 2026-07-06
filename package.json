@@ -12,7 +12,7 @@
     "@calcom/embed-react": "^1.5.3",
     "@fontsource/special-gothic-expanded-one": "^5.2.3",
     "lucide-react": "^1.17.0",
-    "material-symbols": "^0.44.6",
+    "material-symbols": "^0.44.12",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"

@@ -2,6 +2,7 @@ import React from 'react';
 import { Heading } from '../atoms/heading';
 import { Text } from '../atoms/text';
 import { ServiceCard } from '../molecules/service-card';
+import { CinematicReveal } from '../atoms/cinematic-reveal';
 
 interface ServiceData {
     title: string;
@@ -48,15 +49,24 @@ export const Services: React.FC = () => {
                     </Heading>
                 </div>
 
+                {/* lets add staggered fade in animations for service cards */}
+
                 {/* 2x2 Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+
                     {services.map((service, index) => (
-                        <ServiceCard
+                        <CinematicReveal
                             key={index}
-                            title={service.title}
-                            description={service.description}
-                            icon={service.icon}
-                        />
+                            delay={index * 150}
+                            direction="up"
+                        >
+                            <ServiceCard
+                                key={index}
+                                title={service.title}
+                                description={service.description}
+                                icon={service.icon}
+                            />
+                        </CinematicReveal>
                     ))}
                 </div>
 

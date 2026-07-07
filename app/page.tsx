@@ -9,26 +9,47 @@ import { FAQ } from '@/components/organisms/faq';
 import { CTA } from '@/components/organisms/cta';
 import { Footer } from '@/components/organisms/footer';
 import IndustriesSpecialize from '@/components/organisms/industreis-specialization';
+import { FadeInReveal } from '@/components/atoms/fade-in-reveal';
 
 export default function Home() {
   return (
     <main className="bg-white min-h-screen selection:bg-brand-dark selection:text-white">
+      {/* Immediate render for above-the-fold content */}
       <Navbar />
       <Hero />
-      <Statement />
-      <Features />
-      <IndustriesSpecialize />
-      {/* <Situations h /> */}
-      <Services />
-      <Process />
-      {/* <FAQ /> */}
-      <CTA />
-      {/* Add remaining organisms here:
-        <ComplexNeeds />
-        <Testimonials />
+
+      {/* Scroll-triggered reveal for everything below the fold */}
+      <FadeInReveal>
+        <Statement />
+      </FadeInReveal>
+
+      <FadeInReveal>
+        <Features />
+      </FadeInReveal>
+
+      <FadeInReveal>
+        <IndustriesSpecialize />
+      </FadeInReveal>
+
+      {/* <FadeInReveal><Situations h /></FadeInReveal> */}
+
+      <FadeInReveal>
+        <Services />
+      </FadeInReveal>
+
+      <FadeInReveal>
+        <Process />
+      </FadeInReveal>
+
+      {/* <FadeInReveal><FAQ /></FadeInReveal> */}
+
+      <FadeInReveal>
+        <CTA />
+      </FadeInReveal>
+
+      <FadeInReveal>
         <Footer />
-      */}
-      <Footer />
+      </FadeInReveal>
     </main>
   );
 }

@@ -12,12 +12,6 @@ interface IndustryCard {
 // 2. Centralize the data to keep the component clean and scalable
 const industriesData: IndustryCard[] = [
     {
-        id: 'Tax Advisery',
-        title: 'Tax Advisery',
-        description: 'Navigate complex tax landscapes with a proactive, forward-looking strategy. We analyze your financial architecture to identify opportunities for minimizing liabilities and maximizing operational cash flow. From local compliance to global reporting, we provide actionable insights designed to build resilient, long-term business wealth.',
-        Icon: Globe,
-    },
-    {
         id: 'Tax preparation / Review',
         title: 'Tax preparation / Review',
         description: 'Precision is non-negotiable. We execute and review your tax filings through a rigorous, multi-level quality control process to guarantee absolute accuracy and eliminate audit risks. Stop leaving money on the table—our streamlined approach ensures compliant, flawless, and timely deliverables every single time.',
@@ -28,6 +22,12 @@ const industriesData: IndustryCard[] = [
         title: 'Accounting / Payroll',
         description: 'Transform your bookkeeping from a bottleneck into a strategic asset. We handle the complete lifecycle of your accounting and payroll operations with seamless, transparent tracking. By delivering accurate, real-time financial reporting, we give you the exact numbers you need to scale confidently and focus purely on growth.',
         Icon: Building2,
+    },
+    {
+        id: 'Tax Advisery',
+        title: 'Tax Advisery',
+        description: 'Navigate complex tax landscapes with a proactive, forward-looking strategy. We analyze your financial architecture to identify opportunities for minimizing liabilities and maximizing operational cash flow. From local compliance to global reporting, we provide actionable insights designed to build resilient, long-term business wealth.',
+        Icon: Globe,
     },
 ];
 

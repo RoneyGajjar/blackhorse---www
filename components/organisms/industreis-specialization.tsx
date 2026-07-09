@@ -24,8 +24,8 @@ const industriesData: IndustryCard[] = [
         Icon: Building2,
     },
     {
-        id: 'Tax Advisery',
-        title: 'Tax Advisery',
+        id: 'Tax Advisory',
+        title: 'Tax Advisory',
         description: 'Navigate complex tax landscapes with a proactive, forward-looking strategy. We analyze your financial architecture to identify opportunities for minimizing liabilities and maximizing operational cash flow. From local compliance to global reporting, we provide actionable insights designed to build resilient, long-term business wealth.',
         Icon: Globe,
     },
